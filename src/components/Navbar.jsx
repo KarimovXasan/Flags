@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <header>
-      <div className='container flex items-center justify-between'>
+      <div className='container flex items-center justify-between hidden md:block lg:block'>
         <div>
           <p className='text-2xl font-normal'>Panto</p>
         </div>
